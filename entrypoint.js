@@ -14,7 +14,7 @@ runAudit();
 
 async function runAudit() {
   try {
-    if (event === "push") {
+    if (true /* event === "push" */) {
       tools.log("### Action triggered! ###");
 
       // 1. An authenticated instance of `@octokit/rest`, a GitHub API SDK
